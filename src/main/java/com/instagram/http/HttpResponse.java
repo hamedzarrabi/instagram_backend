@@ -17,4 +17,7 @@ public class HttpResponse {
     private HttpStatus httpStatus;
     private String reason;
     private String message;
+
+    public HttpResponse(int value, HttpStatus httpStatus, String toUpperCase, String toUpperCase1) {
+    }
 }

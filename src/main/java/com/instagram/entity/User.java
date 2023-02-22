@@ -26,6 +26,12 @@ public class User implements Serializable {
     @Length(min = 3, max = 50)
     private String username;
     @NotNull
+    @Length(min = 3, max = 50)
+    private String firstName;
+    @NotNull
+    @Length(min = 3, max = 50)
+    private String lastName;
+    @NotNull
     @Length(min = 5, max = 100)
     private String password;
     private String profileImage;
